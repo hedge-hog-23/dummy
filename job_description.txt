@@ -1,0 +1,37 @@
+Job Title: Senior Cloud Engineer
+
+Location: Chennai  
+Department: IT / Cloud Engineering  
+Experience: Minimum 10 years
+
+Job Description:
+We are seeking a highly skilled Senior Cloud Engineer with at least 10 years of experience in designing, implementing, and managing cloud infrastructure. The ideal candidate will have deep expertise in cloud platforms (AWS, Azure, or GCP), automation, and DevOps practices.
+
+Key Responsibilities:
+- Design, deploy, and manage scalable, secure, and highly available cloud solutions.
+- Lead cloud migration and modernization projects.
+- Automate infrastructure provisioning and management using Infrastructure as Code (IaC) tools.
+- Monitor cloud environments and optimize for performance and cost.
+- Ensure compliance with security and governance standards.
+- Mentor junior engineers and provide technical leadership.
+- Collaborate with cross-functional teams to deliver cloud-based solutions.
+
+Required Skills:
+- 10+ years of experience in cloud engineering or related roles.
+- Expertise in at least one major cloud platform (AWS, Azure, GCP).
+- Strong knowledge of networking, security, and cloud architecture best practices.
+- Proficiency with IaC tools (Terraform, CloudFormation, etc.).
+- Experience with CI/CD pipelines and DevOps tools.
+- Scripting skills (Python, Bash, PowerShell, etc.).
+- Excellent problem-solving and communication skills.
+
+Preferred Qualifications:
+- Cloud certifications (AWS Solutions Architect, Azure Architect, etc.).
+- Experience with containerization (Docker, Kubernetes).
+- Familiarity with monitoring and logging tools.
+
+Education:
+- Bachelor’s or Master’s degree in Computer Science, Engineering, or related field.
+
+To Apply:  
+Please send your resume and cover letter to [Insert Contact Email].
