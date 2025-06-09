@@ -2,10 +2,9 @@ import google.generativeai as genai
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
+# environment variables from .env file
 load_dotenv()
 
-# Configure the API key
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def get_gemini_embedding(text):

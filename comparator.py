@@ -17,11 +17,9 @@ def compare_resumes(jd_text, resume_texts, resume_names, get_embedding_func=None
         # Compare each resume
         for i, (resume_text, resume_name) in enumerate(zip(resume_texts, resume_names)):
             try:
-                # Get resume embedding
                 resume_embedding = get_embedding_func(resume_text)
                 resume_vector = np.array([resume_embedding])
-                
-                # Calculate cosine similarity
+
                 similarity = cosine_similarity(jd_vector, resume_vector)[0][0]
                 score = round(similarity * 100, 2)
                 
@@ -44,6 +42,5 @@ def compare_resumes(jd_text, resume_texts, resume_names, get_embedding_func=None
         print(f"Error getting job description embedding: {e}")
         return []
     
-    # Sort by score (highest first)
     results.sort(key=lambda x: x["score"], reverse=True)
     return results

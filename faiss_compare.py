@@ -26,10 +26,9 @@ def compare_with_faiss_only(jd_text, resume_texts, get_embedding):
     if not resume_texts:
         return []
     
-    # Build FAISS index from resumes
+
     index, resume_vectors = build_faiss_index(resume_texts, get_embedding)
     
-    # Embed JD text
     try:
         jd_embedding = get_embedding(jd_text)
         jd_vector = np.array([jd_embedding]).astype("float32")
@@ -62,6 +61,5 @@ def compare_with_faiss_only(jd_text, resume_texts, get_embedding):
             "faiss_score": round(faiss_score, 2)
         })
 
-    # Sort by score descending
     results.sort(key=lambda x: x["faiss_score"], reverse=True)
     return results
